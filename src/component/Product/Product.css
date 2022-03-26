@@ -1,0 +1,48 @@
+.container {
+  width: 300px;
+  height: 510px;
+  border: 2px solid rgb(148, 140, 140);
+  border-radius: 8px;
+  position: relative;
+}
+
+.container img {
+  width: 286px;
+  height: 286px;
+  margin: 8px;
+  border-radius: 8px;
+  margin-bottom: 0px;
+}
+
+.container .product-details {
+  margin-left: 15px;
+  margin-top: 0px;
+  font-size: 17px;
+}
+.container .product-details p {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.container .product-details h4 {
+  margin-top: 3px;
+}
+
+.btn-cart {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  border-radius: 0 0 8px 8px;
+  background-color: rgb(9, 22, 78);
+  color: rgb(238, 238, 238);
+  font-size: 17px;
+  font-weight: bold;
+  border: 0;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.btn-cart:hover {
+  background-color: rgb(238, 238, 238);
+  color: rgb(9, 22, 78);
+  border-top: 1px solid rgb(148, 140, 140);
+}
